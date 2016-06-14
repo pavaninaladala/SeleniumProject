@@ -36,7 +36,7 @@ public class ToolsqaBasePage extends LocatorMethodsPage{
 		PageFactory.initElements(driver, this);
 	}
 	public void typeSearch(String search){
-		
+		//This is hari comment
 		/*JavascriptExecutor executor = (JavascriptExecutor)driver;
 		executor.executeScript("arguments[0].click();", searchbutton);
 		WebDriverWait wait = new WebDriverWait(driver, 40);
